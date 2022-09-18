@@ -20,5 +20,5 @@ Route::get('/post', function () {
 
 // // admin pannel//
 Route::get('/', function () {
-    return view('layout.admin');
+    return view('admin.Dashbord.index');
 });
